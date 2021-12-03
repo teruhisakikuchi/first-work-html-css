@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* ---------------
+
+CSSを適用していく時は、下記テンプレートをコピペして
+波括弧の間に命令を書くようにしましょう！
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここからテンプレート ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+.nickname{
+
+}
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここからテンプレート ↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+---------------*/
+
+/*画面全体の基本設定*/
+
+/*画像を伸縮させるために必要*/
+
+.hero-image{
+    position: relative;
+
+}
+
+.hero-image__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.header{
+    background-color: white;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 0 0 48px
+}
+.wrapper{
+    max-width: 1140px;
+    margin: auto;
+}
+
+body{
+    color:#333333;
+    width: 1365px;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.site-title{
+    font-size:18px;
+    font-weight:bold;
+    color:#FFD61A;
+
+}
+
+.profile{
+    padding: 80px;
+}
+.profile__title{
+    margin: 0 0 40px;
+}
+
+.profile__text{
+    margin: 0 0 24px;
+}
+
+.course-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-text{
+    text-align: left;
+}
+
+
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.news-item{
+    min-width: 33.333%;
+    width: 33.333%;
+    flex: 0 0 33.333%;
+
+}
+
+.news-text{
+    text-align: left;
+}
+
+
+.btn{
+    display: block;
+    width: 214px;
+    margin: auto;
+    padding: 21px 0;
+    background-color: #FFD61A;
+    color: white;
+}
+
+.company-margin{
+    margin: 0 0 40px;
+}
+
+
+
+
+.title__black{
+    color: #333333;
+}
+
+.form-wrapper{
+    width: 560px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-title{
+    width: 152px;
+    margin: 0 20px 0 0;
+    padding: 8px 0 0 0;
+    font-weight: bold;
+    text-align: right;
+}
+.form-item{
+    width: 388px;
+    margin: 0 0 24px;
+}
+
+.form-parts{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px ;
+}
+
+
+.footer{
+    padding: 24px 0;
+    background-color: gray;
+}
+
+.copyrights{
+    color: white;
+}
